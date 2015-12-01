@@ -1,1 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.hello-world"
+        version   = "2">
+
+    <name>Yakaotala App</name>
+
+    <description>
+        une application qui permet aux etranger d'avoir un portail evolutif du congo et qui permet d'avoir un annuaire du congo.concu 
+        par un congolais du nom de JR POSHO, donne la possibilté au congolais d'avoir plus d'opportunité dans le secteur d'activité.
+    </description>
+
+    <author href="http://www.yakaotala.com" email="jaffarps2011@gmail.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+
+   <preference name="Fullscreen" value="true" />
+        <preference name="WebViewBounce" value="true" />
+        
+        <icon src="http://www.yakaotala.com/Api_yakaot/yakaotala%20logo%20black.png" platform="android" qualifier="ldpi" />
+<icon src="http://www.yakaotala.com/Api_yakaot/yakaotala%20logo%20black.png" platform="android" qualifier="mdpi" />
+<icon src="http://www.yakaotala.com/Api_yakaot/yakaotala%20logo%20black.png" platform="android" qualifier="hdpi" />
+<icon src="http://www.yakaotala.com/Api_yakaot/yakaotala%20logo%20black.png" platform="android" qualifier="xhdpi" />
+<icon src="http://www.yakaotala.com/Api_yakaot/yakaotala%20logo%20black.png" platform="android" qualifier="xxhdpi" />
+<icon src="http://www.yakaotala.com/Api_yakaot/yakaotala%20logo%20black.png" platform="android" qualifier="fr-xxhdpi" />
+</widget>
